@@ -1,12 +1,12 @@
 # kfilechooser
 Lightweight Android File Chooser
 
-# Feature
+## Feature
 * File and folder chooser mode
 * File and folder name and extension filtering
 * Easy to use
 
-# Intall
+## Intall
 
 In yout project build.gradle add this maven repository
 
@@ -38,7 +38,7 @@ implementation  'kbrs.com.kfilechooser:kfilechooser:1.0'
  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
 ```
 
-# Usage
+## Usage
 
 * Minimal usage of this library
 
@@ -88,6 +88,6 @@ KFileChooser.getInstance()
                 .show(getSupportFragmentManager());
 ```
 
-# Compatibility
+## Compatibility
 
 This library using DialogFragment and this project minimum target in android 15 or later
