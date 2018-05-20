@@ -8,17 +8,7 @@ Lightweight Android File Chooser
 
 ## Intall
 
-In yout project build.gradle add this maven repository
-
-```
-repositories {
-    ...
-    maven {
-        url  "https://dl.bintray.com/kalibrantas/android" 
-    }
-    ...
-}
-```
+Add jcenter repositories to your project gradle if not present, usually its automatically added by android studio.
 
 In your application build.gradle dependencies add this line, for grandle <3.0 :
 
